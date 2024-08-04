@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone USSD</title>
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<div class="pc">
+    <h1>pc not support </h1><br>
+    <h3>only mobile phone</h3>
+
+</div>
+<div class="con">
+    <div class="ttop" style="width: 100%;height: 150px;display: flex;align-items: center;justify-content: center;flex-direction: column;" >
+         <input type="search" placeholder="search...">
+         <div style="display: flex; border-bottom: 1px solid #968989; width: 100%;">
+            <div style="width: 50%; text-align: center; font-family: sans-serif; padding: 10px; font-size: small;">RECENTS</div>
+            <div style="width: 50%; text-align: center; font-family: sans-serif; padding: 10px; font-size: small;">CONTACTS</div>
+         </div>
+    </div>
+    <div class="top">
+
+    </div>
+    <div class="ussd">
+        <label for="" class="loader"></label>
+        <p>USSD code running...</p>
+    </div>
+    <div class="err">
+        <p>Connection problem or invalid MMI code.</p>
+        <button class="errbtn">OK</button>
+    </div>
+    <div class="show">
+        <div class="one">
+
+        </div>
+        <button type="button" class="ok">OK</button>
+    </div>
+    <div class="result" style="display: flex;justify-content: center;align-items: center; border: 1px solid rgb(143, 130, 130); overflow:hidden; padding: 10px;">
+        <div class="output"></div>
+        <div><img src="icon/delete.png" alt="" class="delete" width="30px" height="30px">
+        </div>
+    </div>
+
+    <div class="all">
+        <div class="row">
+
+            <div class="litt">
+                <div class="key">1</div>
+                <div class="spa">-</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">2</div>
+                <div class="spa">ABC</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">3</div>
+                <div class="spa">DEF</div class="spa">
+            </div>
+        </div>
+        <div class="row">
+            <div class="litt">
+                <div class="key">4</div>
+                <div class="spa">GHI</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">5</div>
+                <div class="spa">JKL</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">6</div>
+                <div class="spa">MNO</div class="spa">
+            </div>
+        </div>
+        <div class="row">
+            <div class="litt">
+                <div class="key">7</div>
+                <div class="spa">PQRS</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">8</div>
+                <div class="spa">TUV</div class="spa">
+            </div>
+            <div class="litt">
+                <div class="key">9</div>
+                <div class="spa"> WXYZ</div class="spa">
+            </div>
+        </div>
+        <div class="row">
+            <div class="key">*</div>
+            <div class="litt">
+                <div class="key">0</div>
+                <div class="spa">+</div class="spa">
+            </div>
+            <div class="key">#</div>
+        </div>
+        <div class="row rowbottom">
+             <img class="btn call" src="icon/phone.png" alt="" width="60px" height="60px">
+        </div>
+
+    </div>
+</div>
+
+
+<script src="kk.js"></script>
+
+</body>
+</html>
