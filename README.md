@@ -27,7 +27,7 @@ This project simulates a USSD balance check system. Users can input a specific U
 ## Usage
 
 To run this project locally, follow these link:
-<a href="">USSD Code</a>
+<a href="https://kene19.github.io/phone-ussd/">USSD Code</a>
 
 ## File Structure
 
