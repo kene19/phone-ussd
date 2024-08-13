@@ -90,9 +90,11 @@ input {
     text-align: center;
 
 }
-img{
+
+img {
     cursor: pointer;
 }
+
 .output {
     width: 90%;
     height: 300px;
