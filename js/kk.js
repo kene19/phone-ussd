@@ -19,7 +19,7 @@ for (let key of allKey) {
 let an = Math.floor(Math.random() * 100) + 1;
 
 btn.addEventListener("click", function () {
-
+    
     console.log(kanu)
     ussd.style.display = "flex";
     setTimeout(() => {
@@ -29,12 +29,13 @@ btn.addEventListener("click", function () {
             one.innerHTML = `<p>Dear customer,Your account balance is ${an}.34 Birr
                                With this balance your account will expire on 03/05/2025.ethio telecom
                               </p>`
+
         } else {
             err.style.display = "flex";
             ussd.style.display = "none";
         }
     }, 2000);
-
+   output.textContent = ''
 
 });
 
